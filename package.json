@@ -1,0 +1,53 @@
+{
+  "name": "time-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@handsontable/vue": "^2.0.0-beta1",
+    "@vuex-orm/core": "^0.24.5",
+    "ag-grid": "^17.1.1",
+    "ag-grid-vue": "^17.1.0",
+    "buefy": "^0.6.5",
+    "handsontable": "^2.0.0",
+    "jquery": "^3.3.1",
+    "pug": "^2.0.3",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.7",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.7",
+    "@vue/cli-service": "^3.0.0-beta.7",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "vue-template-compiler": "^2.5.13"
+  },
+  "babel": {
+    "presets": [
+      "@vue/app"
+    ]
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ]
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
