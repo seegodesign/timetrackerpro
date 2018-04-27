@@ -6,7 +6,7 @@ export default class Client extends Model {
 
   static fields () {
     return {
-      id: this.attr(null),
+      id: this.increment(),
       name: this.attr(''),
       projects: this.hasMany(Project, 'client_id')
     }

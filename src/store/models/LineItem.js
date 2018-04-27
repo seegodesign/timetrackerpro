@@ -6,7 +6,7 @@ export default class LineItem extends Model {
 
   static fields () {
     return {
-      id: this.attr(null),
+      id: this.increment(),
       description: this.attr(''),
       project_id: this.attr(null),
       type: this.attr(''),

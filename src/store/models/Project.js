@@ -7,7 +7,7 @@ export default class Project extends Model {
 
   static fields () {
     return {
-      id: this.attr(null),
+      id: this.increment(),
       client_id: this.attr(null),
       name: this.attr(''),
       description: this.attr(''),

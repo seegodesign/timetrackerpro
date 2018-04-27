@@ -4,13 +4,13 @@ export default [
   {
     id: 1,
     client_id: 1,
-    name: 'Website Rdesign',
+    name: 'Website Redesign',
     status: 'Active',
     description: 'Some description goes here',
-    assignee: { id: 1, name: 'Jane Fonda' },
+    assignee: { id: 1, name: 'Client A' },
     lineitems: [
-      { id: 1, description: 'Styling', project_id: 1, type: 'Hourly', rate: '$70', qty: '04:23' },
-      { id: 2, description: 'Coding', project_id: 1, type: 'Hourly', rate: '$70', qty: '01:51' }
+      { id: 1, description: 'Styling', project_id: 1, type: 'Hourly', rate: 75, qty: 1.5 },
+      { id: 2, description: 'Coding', project_id: 1, type: 'Hourly', rate: 75, qty: 1.5 }
     ]
   },
   {
@@ -19,10 +19,10 @@ export default [
     name: 'Logo Design',
     status: 'Active',
     description: 'Some description goes here',
-    assignee: { id: 1, name: 'Jane Fonda' },
+    assignee: { id: 1, name: 'Client A' },
     lineitems: [
-      { id: 3, description: 'Logo prep', project_id: 2, type: 'Hourly', rate: '$70', qty: '04:23' },
-      { id: 4, description: 'Finalization', project_id: 2, type: 'Hourly', rate: '$70', qty: '01:51' }
+      { id: 3, description: 'Logo prep', project_id: 2, type: 'Hourly', rate: 75, qty: 1.5 },
+      { id: 4, description: 'Finalization', project_id: 2, type: 'Hourly', rate: 75, qty: 1.5 }
     ]
   },
   {
@@ -31,7 +31,7 @@ export default [
     name: 'SEO Consultation',
     status: 'Active',
     description: 'Some description goes here',
-    assignee: { id: 2, name: 'Ogdon Smith' },
+    assignee: { id: 2, name: 'Client B' },
     lineitems: []
   },
   {
@@ -40,10 +40,10 @@ export default [
     name: 'Meetings',
     status: 'Active',
     description: 'Some description goes here',
-    assignee: { id: 3, name: 'Cameron Gaut' },
+    assignee: { id: 3, name: 'Client C' },
     lineitems: [
-      { id: 5, description: 'Long meeting', project_id: 2, type: 'Hourly', rate: '$70', qty: '04:23' },
-      { id: 6, description: 'Smoke testing', project_id: 2, type: 'Hourly', rate: '$70', qty: '01:51' }
+      { id: 5, description: 'Long meeting', project_id: 2, type: 'Hourly', rate: 75, qty: 1.5 },
+      { id: 6, description: 'Smoke testing', project_id: 2, type: 'Hourly', rate: 75, qty: 1.5 }
     ]
   }
 ]
