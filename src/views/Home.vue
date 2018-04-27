@@ -3,7 +3,6 @@
     nav.navbar.has-shadow
       .navbar-brand
         h1.title My Dashboard
-        span(v-for="(location, idx) in locations" :key="idx") {{ location.name }}
       .navbar-menu
         .navbar-end
           //- .navbar-item.has-dropdown.is-active
